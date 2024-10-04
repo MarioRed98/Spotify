@@ -1,0 +1,16 @@
+body .container{
+    background-color: black;
+    
+}
+.container {
+    color: white;
+    text-transform: uppercase;
+    -webkit-text-stroke-color: #F1F1F1;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    
+}
+
+.col-6{
+    margin: 0 auto;
+}
