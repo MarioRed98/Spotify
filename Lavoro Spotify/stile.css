@@ -1,16 +1,66 @@
-body .container{
+body{
     background-color: black;
-    
-}
-.container {
     color: white;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    }
+.container h1{
+    font-size: 50px;
     text-transform: uppercase;
     -webkit-text-stroke-color: #F1F1F1;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
+    font-weight: revert-layer;
+}
+.container{
+    position: relative;
+    left: 15rem;
+    top: 10rem;
+}
+
+.text_vertical{
+    transform: rotate(180deg);
+    position: relative;
+    writing-mode: vertical-lr;
+    left: 2rem;
+    font-weight: bolder;
+}
+
+.col-6.text_album{
+    position: relative;
+    top: 12rem;
+}
+
+h2{
+    font-weight: 700 !important;
+}
+
+.green_text{
+    color: #50A584;
+}
+
+.button_listen_now{
+    padding: 10px;
+    background-color: #50A584;
+    border-color: #50A584;
+    transition-duration: 0.4s;
+    border: none;
+    color: white;
+}
+.button_share{
+    padding: 10px;
+    transition-duration: 0.4s;
+    border: none;
+    background: transparent;
+    color: white;
     
 }
 
-.col-6{
-    margin: 0 auto;
+.button_listen_now:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.button_share:hover{
+    background-color: whitesmoke;
+    color: black;
+    
 }
