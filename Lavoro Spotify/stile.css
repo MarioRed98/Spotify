@@ -63,13 +63,20 @@ body{
     background-color: whitesmoke;
     color: black;
 }
-.track_list{
-    position: relative;
-    top: 15rem;
-    left: 15rem;
 
-}
-.track_list h2{
+.stream_list h2{
     font-weight: 600;
     font-size: 3rem;
+}
+
+.stream_list{
+    position: relative;
+    text-align: center;
+    top: 10rem;
+    right: 10rem;
+}
+
+.button_list{
+    right: 30rem;
+    position: relative;
 }
