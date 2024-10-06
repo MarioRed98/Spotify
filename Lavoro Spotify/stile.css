@@ -30,7 +30,7 @@ body{
     top: 12rem;
 }
 
-h2{
+.subtitle{
     font-weight: 700 !important;
 }
 
@@ -62,5 +62,14 @@ h2{
 .button_share:hover{
     background-color: whitesmoke;
     color: black;
-    
+}
+.track_list{
+    position: relative;
+    top: 15rem;
+    left: 15rem;
+
+}
+.track_list h2{
+    font-weight: 600;
+    font-size: 3rem;
 }
