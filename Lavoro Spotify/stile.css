@@ -80,3 +80,28 @@ body{
     right: 30rem;
     position: relative;
 }
+.row.align-items-center{
+    width: 25rem;
+    position: relative;
+    left: 8rem;
+    bottom: 2rem;
+}
+
+.row.col-6{
+    width: 9rem;
+}
+.col-6 p{
+    top: 7px;
+    font-size: 13px;
+    bottom: 0px;
+    position: relative;
+    right: 10px;
+    color: white;
+}
+.col-6 a{
+    text-decoration: none;
+}
+.row.align-items-center > div{
+    border: 1px solid white;
+    height: 50px;
+}
