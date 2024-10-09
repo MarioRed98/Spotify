@@ -89,6 +89,7 @@ body{
 
 .row.col-6{
     width: 9rem;
+    border: 1px solid;
 }
 .col-6 p{
     top: 8px;
@@ -100,10 +101,25 @@ body{
 }
 .col-6 a{
     text-decoration: none;
-    position: relative;
-    top: 6px;
+   
 }
 
 .button_share {
     border: 1px solid white;
 }
+.boardcamp{
+    border: 1px solid white;
+}
+.soundcload{
+    border: 1px solid white;
+}
+.apple{
+    border: 1px solid white;
+}
+.youtube{
+    border: 1px solid white;
+}
+.spotify{
+    border: 1px solid white;
+}
+
