@@ -91,17 +91,19 @@ body{
     width: 9rem;
 }
 .col-6 p{
-    top: 7px;
+    top: 8px;
     font-size: 13px;
     bottom: 0px;
     position: relative;
-    right: 10px;
+    right: 16px;
     color: white;
 }
 .col-6 a{
     text-decoration: none;
+    position: relative;
+    top: 6px;
 }
-.row.align-items-center > div{
+
+.button_share {
     border: 1px solid white;
-    height: 50px;
 }
