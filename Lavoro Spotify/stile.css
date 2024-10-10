@@ -16,7 +16,7 @@ body{
     left: 15rem;
     top: 10rem;
 }
-
+ 
 .text_vertical{
     transform: rotate(180deg);
     position: relative;
@@ -24,20 +24,20 @@ body{
     left: 2rem;
     font-weight: bolder;
 }
-
+ 
 .col-6.text_album{
     position: relative;
     top: 12rem;
 }
-
+ 
 .subtitle{
     font-weight: 700 !important;
 }
-
+ 
 .green_text{
     color: #50A584;
 }
-
+ 
 .button_listen_now{
     padding: 10px;
     background-color: #50A584;
@@ -46,15 +46,21 @@ body{
     border: none;
     color: white;
 }
+ 
 .button_share{
     padding: 10px;
     transition-duration: 0.4s;
     border: none;
     background: transparent;
     color: white;
-    
+    border: 1px solid #ffffff;
 }
-
+ 
+.button_listen_now i,
+.button_share i{
+    margin-right: 10px;
+}
+ 
 .button_listen_now:hover{
     background-color: whitesmoke;
     color: black;
@@ -63,19 +69,19 @@ body{
     background-color: whitesmoke;
     color: black;
 }
-
+ 
 .stream_list h2{
     font-weight: 600;
     font-size: 3rem;
 }
-
+ 
 .stream_list{
     position: relative;
     text-align: center;
     top: 10rem;
     right: 10rem;
 }
-
+ 
 .button_list{
     right: 30rem;
     position: relative;
@@ -85,12 +91,18 @@ body{
     position: relative;
     left: 8rem;
     border: 1px solid;
-    padding: 1rem;
+    /*padding: 1rem;*/
 }
-
+ 
+.row.align-items-center > div{
+    padding: 1rem;
+    border-right: 1px solid #ffffff;
+    min-height: 68px;
+}
+ 
 .row.col-6{
     width: 9rem;
-    
+ 
 }
 .col-6 p{
     top: 8px;
@@ -102,5 +114,6 @@ body{
 }
 .col-6 a{
     text-decoration: none;
-   
+ 
 }
+ 

@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.col-1.colonna_numero{
+    text-align: center;
+}
+.col-1.colonna_logo svg{
+    width: 20px;
+}
+
+.col-1.colonna_share svg{
+    width: 20px;
+}
+.col-8.colonna_musica h4{
+    line-height: 0;
+}
+.col-1.colonna_tempo h4{
+    font-size: 20px;
+}
+.col-1.colonna_numero h4{
+    font-size: 20px;
+}
