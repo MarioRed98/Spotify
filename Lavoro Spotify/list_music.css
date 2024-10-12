@@ -7,18 +7,26 @@ body{
     text-align: center;
 }
 .col-1.colonna_logo svg{
-    width: 20px;
+    width: 18px;
 }
 
 .col-1.colonna_share svg{
-    width: 20px;
+    width: 18px;
 }
 .col-8.colonna_musica h4{
     line-height: 0;
+    font-size: 18px;
 }
 .col-1.colonna_tempo h4{
-    font-size: 20px;
+    font-size: 18px;
 }
 .col-1.colonna_numero h4{
+    font-size: 20px;
+}
+.lista{
+    padding: 0rem 20rem 0rem 20rem;
+}
+
+.col-8.colonna_musica h3{
     font-size: 20px;
 }
