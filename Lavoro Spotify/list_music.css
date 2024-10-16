@@ -30,3 +30,6 @@ body{
 .col-8.colonna_musica h3{
     font-size: 20px;
 }
+.lista div{
+    padding-bottom: 2rem;
+}
